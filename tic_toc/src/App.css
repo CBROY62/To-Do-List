@@ -1,0 +1,45 @@
+body {
+  background-color: #411c36;
+  color: rgb(8, 3, 3);
+  font-family: 'Georgia', serif;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  background-color: #fde5b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 0 15px yellow;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #da5adf;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 5px 10px yellow;
+  cursor: pointer;
+}
